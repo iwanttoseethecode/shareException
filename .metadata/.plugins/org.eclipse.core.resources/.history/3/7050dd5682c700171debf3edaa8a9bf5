@@ -1,0 +1,14 @@
+package tip17;
+
+public final class Super{
+	public Super() {  
+        method();  
+    }  
+  
+  
+    public void method() {  
+        System.out.println("Super method");  
+    }  
+    
+    
+}

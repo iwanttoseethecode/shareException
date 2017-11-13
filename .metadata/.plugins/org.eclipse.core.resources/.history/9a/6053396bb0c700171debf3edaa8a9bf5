@@ -1,0 +1,18 @@
+package level;
+
+public class Rectangle implements Figure {
+	
+	final double height;  
+    final double width;  
+  
+    Rectangle(double length, double width) {  
+        this.length = length;  
+        this.width  = width;  
+    }  
+	
+	@Override
+	public double area() {
+		return length * width;
+	}
+
+}

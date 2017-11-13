@@ -1,0 +1,14 @@
+package tip17;
+
+public class Super implements Cloneable{
+	private Super() {  
+        method();  
+    }  
+  
+  
+    public void method() {  
+        System.out.println("Super method");  
+    }  
+    
+    
+}

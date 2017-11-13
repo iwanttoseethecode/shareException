@@ -1,0 +1,7 @@
+package tip58;
+
+import Excaption;
+
+public class MonkeySpeakExcaption extends Excaption {
+
+}

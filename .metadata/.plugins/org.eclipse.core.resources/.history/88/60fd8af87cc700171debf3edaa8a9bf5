@@ -1,0 +1,17 @@
+package tip17;
+
+public class Super {
+	public Super() {  
+        method();  
+    }  
+  
+  
+    public void overrideMe() {  
+        System.out.println("Super method");  
+    }  
+    
+    public static void main(String[] args) {
+		Sub sub = new Sub();
+		sub.method();
+	}
+}

@@ -1,0 +1,17 @@
+package tip58;
+
+public class Monkey {
+	
+	public void eat(Object obj) throws MoneyFoodException{
+		if (obj instanceof Fruit){
+			System.out.println("水果吃饱了");
+		}else{
+			throw new MoneyFoodException("Monkey 吃的不是水果");
+		}
+	}
+	
+	public void doAction(){
+		
+	}
+
+}
