@@ -19,6 +19,5 @@ public class Sub extends Super {
   
     public static void main(String[] args) {  
         Sub s = new Sub();  
-        s.method();  
     }  
 }
