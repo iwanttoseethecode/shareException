@@ -1,9 +1,0 @@
-package tip19;
-
-public class Formula implements PhysicalConstanst {
-	
-	public double plus(){
-		return 
-	}
-	
-}

@@ -1,5 +1,0 @@
-package tip17;
-
-public class Sub extends Super {
-
-}

@@ -1,7 +1,0 @@
-package tip58;
-
-import Excaption;
-
-public class MonkeySpeakException extends Exception {
-
-}
